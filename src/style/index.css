@@ -1,0 +1,74 @@
+.wate {
+  font-weight: 600;
+  color: rgb(111, 111, 111);
+}
+
+*,
+.font-v {
+  font-family: "Vazirmatn FD NL";
+}
+.vvvvv{
+  transform: none;
+}
+.bg-base-200{
+  background: #f0f0f0;
+}
+
+.mragin_0_5 {
+  margin: 0.5rem;
+}
+
+
+.shadow-nav {
+  box-shadow: #2d2c2c1c 3px 3px 5px;
+}
+body{
+  overflow-x: hidden;
+}
+.gg {
+  margin: 0.5rem;
+  box-shadow: #2d2c2c1c 3px 3px 5px;
+
+}
+
+.modal-content {
+  border-radius: .375rem;
+  position: absolute;
+  z-index: 5;
+}
+
+/* Scrollbar styling */
+
+.scroll-black * {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(70, 70, 70) auto;
+}
+
+.scroll-black *::-webkit-scrollbar {
+  width: 7px;
+}
+
+.scroll-black *::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scroll-black *::-webkit-scrollbar-thumb {
+  background-color: rgb(70, 70, 70);
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+  z-index: 5;
+  position: absolute;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(255, 166, 0, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ddd4b1;
+  border-radius: 20px;
+  border: 3px solid rgba(255, 166, 0, 0);
+}
+
